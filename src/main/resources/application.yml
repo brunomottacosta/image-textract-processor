@@ -61,10 +61,7 @@ application:
     access-key-id: # must be set at application start or with environment variables
     secret-access-key: # must be set at application start or with environment variables
     s3-source-bucket: # must be set at application start or with environment variables
-    s3-destination-bucket: # must be set at application start or with environment variables
     sqs-queue: # must be set at application start or with environment variables
   files:
-    source-prefix: contracts/temp/
-    processed-prefix: contracts/processed/
-    destination-prefix: dados/sirec/imagens/
+    source-prefix: textract/
 

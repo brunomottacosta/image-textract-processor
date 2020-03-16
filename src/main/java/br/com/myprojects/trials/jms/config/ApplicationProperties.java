@@ -18,16 +18,13 @@ public class ApplicationProperties {
         private String region;
         private String accessKeyId;
         private String secretAccessKey;
-        private String sqsImagesUploadedQueue;
+        private String sqsQueue;
         private String s3SourceBucket;
-        private String s3DestinationBucket;
     }
 
     @Getter
     @Setter
     public static class Files {
         private String sourcePrefix;
-        private String destinationPrefix;
-        private String processedPrefix;
     }
 }

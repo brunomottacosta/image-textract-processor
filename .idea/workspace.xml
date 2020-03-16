@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b8649c-964c-42c7-85af-b00ca58e5f62" name="Default Changelist" comment="" />
+    <list default="true" id="43b8649c-964c-42c7-85af-b00ca58e5f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-jms-with-aws-sqs-fifo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/SpringAwsJmsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/JmsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/consumer/ImagemProcessorConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/ImageProcessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/exceptions/ImageProcessorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/AwsS3Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/FormatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/ImageProcessorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/PredicateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/ResourceBundleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/ImageUploadResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/TextractResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_pt_br.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +37,16 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -21,6 +59,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZDtoMnz49nfL9Ps2YGEt5o0X8f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,15 +67,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -51,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584385666545</updated>
-      <workItem from="1584385669235" duration="670000" />
+      <workItem from="1584385669235" duration="1914000" />
     </task>
     <servers />
   </component>
@@ -63,5 +110,13 @@
       <screen x="70" y="27" width="1530" height="873" />
     </state>
     <state x="430" y="111" width="800" height="684" key="#Project_Structure/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584385854698" />
+    <state x="282" y="17" width="1086" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584386697535">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="282" y="17" width="1086" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584386697535" />
+    <state x="318" y="27" width="1024" height="852" key="SettingsEditor" timestamp="1584387614826">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="318" y="27" width="1024" height="852" key="SettingsEditor/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584387614826" />
   </component>
 </project>
