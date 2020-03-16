@@ -12,10 +12,10 @@ import org.springframework.jms.annotation.EnableJms;
 @SpringBootApplication
 @EnableConfigurationProperties({ApplicationProperties.class})
 @EnableJms
-public class SpringAwsJmsApp {
+public class ImageTextractProcessorApp {
 
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(SpringAwsJmsApp.class);
+        SpringApplication app = new SpringApplication(ImageTextractProcessorApp.class);
         Environment env = app.run(args).getEnvironment();
         logApplicationStartup(env);
     }

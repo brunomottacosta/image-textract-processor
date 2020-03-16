@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b8649c-964c-42c7-85af-b00ca58e5f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jms-with-aws-sqs-fifo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/SpringAwsJmsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/ApplicationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/JmsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/consumer/ImagemProcessorConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/ImageProcessorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/exceptions/ImageProcessorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/AwsS3Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/FormatUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/ImageProcessorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/PredicateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/ResourceBundleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/ImageUploadResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/TextractResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_pt_br.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jms-with-aws-sqs-fifo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/SpringAwsJmsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ImageTextractProcessorApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -88,6 +68,62 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="image-textract-processor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="image-textract-processor" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageTextractProcessorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="image-textract-processor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.myprojects.trials.jms.ImageTextractProcessorApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584385666545</updated>
-      <workItem from="1584385669235" duration="1914000" />
+      <workItem from="1584385669235" duration="2208000" />
     </task>
     <servers />
   </component>

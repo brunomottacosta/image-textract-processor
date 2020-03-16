@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>br.com.myprojects.trials</groupId>
-    <artifactId>spring-jms-with-aws-sqs-fifo</artifactId>
+    <artifactId>image-textract-processor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>sirec-imagem-jms-processor</name>
