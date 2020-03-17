@@ -12,6 +12,7 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.AmazonS3Exception;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.textract.AmazonTextract;
+import com.amazonaws.services.textract.model.Block;
 import com.amazonaws.services.textract.model.DetectDocumentTextRequest;
 import com.amazonaws.services.textract.model.DetectDocumentTextResult;
 import com.amazonaws.services.textract.model.Document;
@@ -20,6 +21,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Service
@@ -59,8 +61,13 @@ public class ImageTextExtractionService {
                                     .withBucket(s3Object.getBucketName())));
 
             DetectDocumentTextResult result = getAwsTextractClient().detectDocumentText(request);
+            String text = result.getBlocks().stream()
+                    .filter(b -> "LINE".equals(b.getBlockType()))
+                    .map(Block::getText)
+                    .collect(Collectors.joining("\n"));
+
             imageTextRepository.save(ImageText.builder()
-                    .extractedTextBlocks(result.getBlocks())
+                    .extractedTextBlocks(text)
                     .s3ObjectKey(s3Object.getKey())
                     .s3Bucket(s3Object.getBucketName())
                     .imageByteLength(s3Object.getObjectMetadata().getContentLength())
