@@ -21,7 +21,8 @@ public class ImageTextractProcessorApp {
     }
 
     private static void logApplicationStartup(Environment env) {
-        log.info("\n----------------------------------------------------------\n\t" +
+        log.info("" +
+                        "\n----------------------------------------------------------\n\t" +
                         "Application '{}' is running!" +
                         "\n----------------------------------------------------------",
                 env.getProperty("spring.application.name"));

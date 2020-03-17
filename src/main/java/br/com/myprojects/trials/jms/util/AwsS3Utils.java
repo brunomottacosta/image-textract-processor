@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 public class AwsS3Utils {
 
     public static AmazonS3 createClient(String accessKeyId, String secretAccessKey, Regions region) {
-        AmazonS3ClientBuilder builder = AmazonS3ClientBuilder.standard()
+        var builder = AmazonS3ClientBuilder.standard()
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
                                 new BasicAWSCredentials(
@@ -25,7 +25,7 @@ public class AwsS3Utils {
 
     public static S3Object getObject(AmazonS3 s3, String bucket, String key) {
         try {
-            GetObjectRequest request = new GetObjectRequest(bucket, key);
+            var request = new GetObjectRequest(bucket, key);
             return s3.getObject(request);
         } catch (Exception ex) {
             return null;
@@ -52,7 +52,7 @@ public class AwsS3Utils {
             String sourceBucket, String destinationBucket,
             String sourceKey, String destinationKey) {
         try {
-            CopyObjectRequest request = new CopyObjectRequest(sourceBucket, sourceKey, destinationBucket, destinationKey);
+            var request = new CopyObjectRequest(sourceBucket, sourceKey, destinationBucket, destinationKey);
             CopyObjectResult result = s3.copyObject(request);
             return result != null;
         } catch (SdkClientException var8) {

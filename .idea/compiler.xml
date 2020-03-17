@@ -12,6 +12,9 @@
         <module name="image-textract-processor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="image-textract-processor" target="13" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b8649c-964c-42c7-85af-b00ca58e5f62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9a1e7543-3e6b-4659-891c-f1ec47552fcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/lambda/s3-uploaded-event-to-sqs-queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/consumer/ImageUploadedQueueConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/data/entity/AbstractAuditingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/data/entity/ImageText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/data/repository/ImageTextRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/AwsTextractUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jms-with-aws-sqs-fifo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/SpringAwsJmsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ImageTextractProcessorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ImageTextractProcessorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ImageTextractProcessorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/consumer/ImagemProcessorConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/ImageProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/ImageTextExtractionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/exceptions/ImageProcessorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/service/exceptions/ImageTextExtractionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/AwsS3Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/util/AwsS3Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/ImageUploadResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/ws/TextractResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,88 +54,48 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1ZDtoMnz49nfL9Ps2YGEt5o0X8f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ZDyhDyZyWHFbm0yR5dJZkPeT8E" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.myprojects.trials.jms.data.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/myprojects/trials/jms/config" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="image-textract-processor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="image-textract-processor" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImageTextractProcessorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="image-textract-processor" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.myprojects.trials.jms.ImageTextractProcessorApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="APPLICATION_AWS_ACCESSKEYID" value="AKIAIEN2WCGOJOYAVDSQ" />
+        <env name="APPLICATION_AWS_SECRETACCESSKEY" value="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" />
+        <env name="APPLICATION_AWS_S3SOURCEBUCKET" value="brunocosta-textract-test" />
+        <env name="APPLICATION_AWS_SQSQUEUE" value="brunocosta-uploaded-image-from-s3.fifo" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,12 +106,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43b8649c-964c-42c7-85af-b00ca58e5f62" name="Default Changelist" comment="" />
-      <created>1584385666545</created>
+      <changelist id="9a1e7543-3e6b-4659-891c-f1ec47552fcd" name="Default Changelist" comment="" />
+      <created>1584388076262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584385666545</updated>
-      <workItem from="1584385669235" duration="2208000" />
+      <updated>1584388076262</updated>
+      <workItem from="1584388078551" duration="13252000" />
     </task>
     <servers />
   </component>
@@ -142,17 +119,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="111" width="800" height="684" key="#Project_Structure" timestamp="1584385854698">
+    <state x="446" y="155" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584471444981">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="430" y="111" width="800" height="684" key="#Project_Structure/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584385854698" />
-    <state x="282" y="17" width="1086" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584386697535">
+    <state x="446" y="155" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584471444981" />
+    <state x="518" y="178" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584464418894">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="282" y="17" width="1086" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584386697535" />
-    <state x="318" y="27" width="1024" height="852" key="SettingsEditor" timestamp="1584387614826">
+    <state x="518" y="178" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584464418894" />
+    <state x="474" y="17" width="702" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584466424463">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
-    <state x="318" y="27" width="1024" height="852" key="SettingsEditor/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584387614826" />
+    <state x="474" y="17" width="702" height="880" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584466424463" />
+    <state x="675" y="261" width="781" height="479" key="EnvironmentVariablesDialog" timestamp="1584471443470">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="675" y="261" width="781" height="479" key="EnvironmentVariablesDialog/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584471443470" />
+    <state width="1484" height="279" key="GridCell.Tab.0.bottom" timestamp="1584472979199">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.0.bottom/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979199" />
+    <state width="1484" height="279" key="GridCell.Tab.0.center" timestamp="1584472979199">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.0.center/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979199" />
+    <state width="1484" height="279" key="GridCell.Tab.0.left" timestamp="1584472979198">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.0.left/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979198" />
+    <state width="1484" height="279" key="GridCell.Tab.0.right" timestamp="1584472979199">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.0.right/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979199" />
+    <state width="1484" height="279" key="GridCell.Tab.1.bottom" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.1.bottom/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.1.center" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.1.center/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.1.left" timestamp="1584472979199">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.1.left/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979199" />
+    <state width="1484" height="279" key="GridCell.Tab.1.right" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.1.right/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.2.bottom" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.2.bottom/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.2.center" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.2.center/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.2.left" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.2.left/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state width="1484" height="279" key="GridCell.Tab.2.right" timestamp="1584472979200">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state width="1484" height="279" key="GridCell.Tab.2.right/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472979200" />
+    <state x="498" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1584472380794">
+      <screen x="70" y="27" width="1530" height="873" />
+    </state>
+    <state x="498" y="194" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/70.27.1530.873@70.27.1530.873" timestamp="1584472380794" />
   </component>
 </project>

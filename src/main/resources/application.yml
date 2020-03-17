@@ -13,30 +13,15 @@ server:
 
 spring:
   application:
-    name: spring-jms-with-aws-sqs-fifo
+    name: image-textract-processor
 
-  # datasource config
-  datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/sirec
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
-    type: com.zaxxer.hikari.HikariDataSource
-  jpa:
-    database: postgresql
-    show-sql: false
-    hibernate:
-      ddl-auto: none
-      naming:
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
-        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
-    properties:
-      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-      hibernate.id.new_generator_mappings: true
-      hibernate.generate_statistics: false
-      hibernate.temp.use_jdbc_metadata_defaults: false
-      hibernate.hbm2ddl.auto: none
-    open-in-view: true
+  # database connection properties
+  # changed when running on docker with env vars
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: image-textract-processor
+      auto-index-creation: false
 
   # other config
   messages:
@@ -58,10 +43,10 @@ application:
   aws:
     # must be set at application start or with environment variables
     region: us-east-1
-    access-key-id: # must be set at application start or with environment variables
-    secret-access-key: # must be set at application start or with environment variables
-    s3-source-bucket: # must be set at application start or with environment variables
-    sqs-queue: # must be set at application start or with environment variables
+    access-key-id: some-access-key
+    secret-access-key: some-secret-key
+    s3-source-bucket: the-bucket-where-images-are-located
+    sqs-queue: the-sqs-queue-name.fifo # all sqs fifo queues must have .fifo in the end
   files:
     source-prefix: textract/
 
