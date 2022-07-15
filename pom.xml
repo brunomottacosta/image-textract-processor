@@ -22,7 +22,7 @@
 
         <!-- versions -->
         <querydsl.version>4.1.4</querydsl.version>
-        <amazonaws.version>1.11.744</amazonaws.version>
+        <amazonaws.version>1.12.261</amazonaws.version>
     </properties>
 
     <dependencyManagement>
